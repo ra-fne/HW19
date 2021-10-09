@@ -18,7 +18,8 @@ body {
 h1 {
   font-size: 60px;
   text-align: center;
-  color: black;
+  color: rgb(30, 21, 83);
+  margin-top: 5rem;;
 }
 
 
@@ -34,19 +35,99 @@ p {
   padding: 2rem;
 }
 
+
+header{
+  display: inline-block;
+  padding: 50px;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+  
+
+nav {
+display: inline-block;
+height: 72px;
+}
+
+
+
+.inline-block {
+    padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+ 
+  
+  ul {
+    width: 50%
+    margin-left: auto;
+  }
+  
+  
+  li {
+    width: 150px;
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;;
+  }
+  
+
+
+
+.heroImg {
+  padding: 10%;
+  height: 100%;
+  margin-left: 0%;
+  background-image: url(/images/pix.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.aboutMe {
+  float: left;
+  font-size: 2rem;
+  padding-top: 5vh;
+  margin-top: 10rem;
+}
+
+
+
+div > p {
+  padding: 20px;
+  width: 40%;
+  margin: 2vh;
+  margin-left: 0;
+  background-image: linear-gradient(to right, white, rgb(236, 243, 236))
+}
+
+
+
+
+button {
+  margin: 25px;
+  width: 20rem;
+  height: 5rem;
+  font-size: x-large;
+  font-weight: 700;
+  border-radius: 10px;
+  color: white;
+  background-color:  #725b34;
+}
+
+
+
 .mySkills {
-  height: 50%;
+  height: 40%;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  margin-top: 10rem;;
 }
 
-.mySkills h2 {
-color: rgb(37, 115, 126);
 
-}
 
 section {
   height: 50%;
@@ -58,7 +139,7 @@ section {
 
 
 .cardSkill {
-  margin: 5%;
+  margin: 1%;
   width: 400px;
   height: 560px;
   background-color: white;
@@ -109,6 +190,7 @@ section {
   grid-template-columns: repeat(12, 1fr);
   grid-row-gap: 8rem;
   padding: 3rem;
+  margin-bottom: 3rem;;
 }
 
 .grid-child1 {
@@ -144,8 +226,27 @@ section {
 
 
 
+footer {
+  display: inline-block;
+  background-color: #373738;
+  text-align: center;
+  font-size: 36px;
+  height: 50px;
+  color: white;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 9px;
+  display: inline-block;
+  padding: 100px;
+  margin: 5% 0;
+}
 
 
+footer > li {
+  text-align: center;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -179,8 +280,6 @@ section {
   grid-column: span 12;
 }
 
-
-}
 
 
 
