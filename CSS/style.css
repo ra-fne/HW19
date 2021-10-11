@@ -72,17 +72,21 @@ height: 72px;
     font-size: 36px;;
   }
   
-
+  .navbar ul li:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+  }
 
 
 /* The container <div> - needed to position the dropdown content */
-#toggle {
+#dropDownMenu {
   position: absolute;
   display: block;
-  margin-left: 380px;
+  margin-left: 600px;
   margin-top: 10px;
   padding: 3rem;
-  /*display: none;*/
+  display: none;
   background-color: #cfd8df;
   color: black;
   min-width: 160px;
